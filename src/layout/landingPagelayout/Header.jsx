@@ -47,14 +47,17 @@ const Header = () => {
                 <span className= ' text-black'>TrueConnect</span>
               </a>
               <ul className='md:flex space-x-12 hidden'>
-                  {
-                    navbarItem.map(({link,path})=><Link key={path} to={path} spy={true} smooth={true} offset={-100} className='block text-base text-stone-900 hover:text-red-600 font-semibold'>{link}</Link>)
-                  }
-              </ul>
+  {navbarItem.map(({ link, path }) => (
+    <Link key={path} to={path} spy={true} smooth={true} offset={-100} className='block text-base text-stone-900 hover:text-red-600 font-semibold'>
+      <RauterLink to={`/${path}`}>{link}</RauterLink>
+    </Link>
+  ))}
+</ul>
+
               {/* button for large device */}
               <div className='space-x-12 hidden lg:flex items-center'>
                <RauterLink to="/login"> <a href="" className='hidden lg:flex items-center text-red-400 hover:text-black'>Login</a></RauterLink>
-               <Link> <button className='bg-red-400 text-black py-2 px-2 transition-all rounded hover:bg-red-200 hover:text-black'>Sign up</button></Link>
+               <Link> <button className='bg-red-400 text-black py-2 px-2 transition-all rounded hover:bg-red-200 hover:text-black'> <RauterLink to="/signup"> Sign up </RauterLink></button></Link>
 
               </div>
               {/* mobile btn for only mobile devices */}

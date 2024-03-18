@@ -10,7 +10,7 @@ const PostHero = () => {
             Empowering education through a TrueConnect, where schools, colleges, and coaching centers can efficiently manage their operations, fostering a culture of growth and learning.
             </p>
             <div class="mt-4">
-              <a href="#contact" class="px-5 py-3 text-lg tracking-wider text-white bg-blue-500 rounded-lg md:px-8 hover:bg-blue-600 group"><span>Explore More</span> </a>
+              <a href="#contact" class="px-5 py-3 text-lg tracking-wider text-white bg-red-400 rounded-lg md:px-8 hover:bg-red-300 group"><span>Explore More</span> </a>
             </div>
           </div>
   

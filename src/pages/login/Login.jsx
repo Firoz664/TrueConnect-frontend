@@ -11,7 +11,7 @@ const Login = () => {
 
   return (
     <>
-<section class="py-4 md:py-8 bg-white-100">
+<section className="py-4 md:py-8 bg-white-100">
 
 <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
   <a href="/" className="flex items-center mb-6 text-2xl font-semibold text-gray-900">
@@ -20,18 +20,18 @@ const Login = () => {
   </a>
 
 
-<div class="flex mt-8 mb-8">
-    <div class="flex items-center me-4">
-    <input checked id="inline-checked-radio" type="radio" value="" name="inline-radio-group" class="w-4 h-4 text-black bg-gray-100 border-black focus:ring-white dark:focus:ring-white dark:ring-offset-white focus:ring-2 dark:bg-gray-100 dark:border-black"/>
-        <label for="inline-radio" class="ms-2 text-sm font-medium text-gray-900 dark:text-black">Admin</label>
+<div className="flex mt-8 mb-8">
+    <div className="flex items-center me-4">
+    <input checked id="inline-checked-radio" type="radio" value="" name="inline-radio-group" className="w-4 h-4 text-black bg-gray-100 border-black focus:ring-white dark:focus:ring-white dark:ring-offset-white focus:ring-2 dark:bg-gray-100 dark:border-black"/>
+        <label for="inline-radio" className="ms-2 text-sm font-medium text-gray-900 dark:text-black">Admin</label>
     </div>
-    <div class="flex items-center me-4">
-    <input checked id="inline-checked-radio" type="radio" value="" name="inline-radio-group" class="w-4 h-4 text-black bg-gray-100 border-black focus:ring-white dark:focus:ring-white dark:ring-offset-white focus:ring-2 dark:bg-gray-100 dark:border-black"/>
-        <label for="inline-2-radio" class="ms-2 text-sm font-medium text-gray-900 dark:text-black">Employee</label>
+    <div className="flex items-center me-4">
+    <input checked id="inline-checked-radio" type="radio" value="" name="inline-radio-group" className="w-4 h-4 text-black bg-gray-100 border-black focus:ring-white dark:focus:ring-white dark:ring-offset-white focus:ring-2 dark:bg-gray-100 dark:border-black"/>
+        <label for="inline-2-radio" className="ms-2 text-sm font-medium text-gray-900 dark:text-black">Employee</label>
     </div>
-    <div class="flex items-center me-4">
-        <input checked id="inline-checked-radio" type="radio" value="" name="inline-radio-group" class="w-4 h-4 text-black bg-gray-100 border-red-600 focus:ring-white dark:focus:ring-white dark:ring-offset-white focus:ring-2 dark:bg-gray-100 dark:border-black"/>
-        <label for="inline-checked-radio" class="ms-2 text-sm font-medium  dark:text-black">Student</label>
+    <div className="flex items-center me-4">
+        <input checked id="inline-checked-radio" type="radio" value="" name="inline-radio-group" className="w-4 h-4 text-black bg-gray-100 border-red-600 focus:ring-white dark:focus:ring-white dark:ring-offset-white focus:ring-2 dark:bg-gray-100 dark:border-black"/>
+        <label for="inline-checked-radio" className="ms-2 text-sm font-medium  dark:text-black">Student</label>
     </div>
   </div>
   <div
@@ -65,10 +65,10 @@ const Login = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-start">
             <div className="flex items-center h-5">
-            <input id="remember" aria-describedby="remember" type="checkbox" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-teal-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-teal-600 dark:ring-offset-gray-800"/>
+            <input id="remember" aria-describedby="remember" type="checkbox" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-teal-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-teal-600 dark:ring-offset-gray-800"/>
             </div>
             <div className="ml-3 text-sm">
-            <label for="remember" class="text-gray-800 dark:text-gray-900">Remember me</label>
+            <label for="remember" className="text-gray-800 dark:text-gray-900">Remember me</label>
             </div>
           </div>
           <a href="" className="text-sm font-medium text-black hover:underline dark:red-600">Forgot password?</a>

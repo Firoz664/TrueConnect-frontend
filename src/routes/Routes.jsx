@@ -6,6 +6,10 @@ import SignUp from "../pages/SignUp";
 import LandingpageLayout from "../layout/landingPagelayout/LandingpageLayout";
 import HomePageLayout from "../layout/homePageLayout/HomePageLayout";
 import Otp from "../pages/otp/Otp";
+import Testimonial from "../layout/landingPagelayout/navComponents/Testimonial";
+import Pricing from "../layout/landingPagelayout/navComponents/Pricing";
+import Blog from "../layout/landingPagelayout/navComponents/Blog";
+import Product from "../layout/landingPagelayout/navComponents/Product";
 
 
 export const router = createBrowserRouter(
@@ -36,12 +40,18 @@ export const router = createBrowserRouter(
         </Route>
       
         <Route path="/login" element={<Login />} />
+
         <Route path="/registration" element={<RegistrationLayout />}>
-        <Route path="" element={<SignUp />} />
+        <Route path="/signup" element={<SignUp />} />
         <Route path="otp" element={<Otp />} />
       </Route>
         <Route path="/home" element={<HomePageLayout />} />
         <Route path="/LandingpageLayout" element={<LandingpageLayout />} />
+        <Route path="/testimonial" element={<Testimonial/>} />
+        <Route path="/prcing" element={<Pricing/>} />
+        <Route path="/blog" element={<Blog/>} />
+        <Route path="/product" element={<Product/>} />
+
 
 
        
