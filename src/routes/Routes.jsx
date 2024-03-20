@@ -17,7 +17,7 @@ export const router = createBrowserRouter(
     <>
       <Route
         path="/"
-        element={<LandingpageLayout />}
+        element={<LandingpageLayout/>}
         errorElement={
           <div
             style={{
@@ -42,8 +42,8 @@ export const router = createBrowserRouter(
         <Route path="/login" element={<Login />} />
 
         <Route path="/registration" element={<RegistrationLayout />}>
-        <Route path="/signup" element={<SignUp />} />
-        <Route path="otp" element={<Otp />} />
+        {/* <Route path="/signup" element={<SignUp/>}/> */}
+        <Route path="otp" element={<Otp/>}/>
       </Route>
         <Route path="/home" element={<HomePageLayout />} />
         <Route path="/LandingpageLayout" element={<LandingpageLayout />} />

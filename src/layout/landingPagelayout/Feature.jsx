@@ -6,7 +6,6 @@ const Feature = () => {
         <section className="">
     <div className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-
             <div className="lg:text-center">
                 <h2
                     className="font-heading mb-4 bg-orange-100 text-orange-800 px-4 py-2 rounded-lg md:w-64 md:mx-auto text-xs font-semibold tracking-widest text-black uppercase title-font">
@@ -20,7 +19,6 @@ const Feature = () => {
                     countried we operate in. We care for our customers and help them manage cashflows.
                 </p>
             </div>
-
             <div className="mt-10">
                 <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
                     <div className="relative">
@@ -88,7 +86,7 @@ const Feature = () => {
         </div>
     </div>
 </section>
-    </div>
+</div>
   )
 }
 

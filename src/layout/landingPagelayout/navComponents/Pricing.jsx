@@ -1,9 +1,14 @@
 import React from 'react'
-
+import Header from '../Header'
+import Footer from '../Footer'
 const Pricing = () => {
   return (
     <div>
-        <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8 my-12">
+    <Header/>
+     <div className='mt-28'>
+     Manage institutions seamlessly with TrueConnect
+     </div>
+    <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8 my-12 mt-28">
     <div className="mx-auto grid max-w-md grid-cols-1 gap-8 lg:max-w-5xl lg:grid-cols-2 lg:gap-8">
         <div className="flex flex-col rounded-3xl bg-white shadow-xl ring-1 ring-black/10">
             <div className="p-8 sm:p-10">
@@ -134,6 +139,7 @@ const Pricing = () => {
         </div>
     </div>
 </div>
+<Footer/>
     </div>
   )
 }

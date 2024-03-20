@@ -1,9 +1,13 @@
 import React from 'react'
+import Header from '../Header'
+import Footer from '../Footer'
 
 const Testimonial = () => {
   return (
-    <div>   
-<section className="bg-red-400 text-white py-16">
+    <div>  
+     <Header className=""/>
+ 
+<section className="bg-red-400 text-white py-16 mt-10">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl font-bold mb-8">What our users are saying</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -25,6 +29,7 @@ const Testimonial = () => {
         </div>
     </div>
 </section>
+<Footer className="mt-12"/>
     </div>
   )
 }

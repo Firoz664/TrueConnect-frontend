@@ -7,7 +7,6 @@ import { FaXmark,FaBars } from "react-icons/fa6";
 
 const Header = () => {
     const[isMenuOpen,setIsMenuOpen]=useState(false);
-
     const[isSticky,setIsSticky]=useState(false);
 
  const toggleMenu=()=>{
@@ -53,7 +52,6 @@ const Header = () => {
     </Link>
   ))}
 </ul>
-
               {/* button for large device */}
               <div className='space-x-12 hidden lg:flex items-center'>
                <RauterLink to="/login"> <a href="" className='hidden lg:flex items-center text-red-400 hover:text-black'>Login</a></RauterLink>
